@@ -8,6 +8,11 @@ triggering configured scenes and send Artnet UDP by incoming MIDI events
 * if a MIDI note is received decide which scene/cue to load
 * -> send Artnet packages per UDP
 
+# needs
+
+* python-rtmidi
+* loopMIDI running and configured in DAW (e.g. Ableton)
+
 # Windows usage
 
 * install miniconda
@@ -15,6 +20,8 @@ triggering configured scenes and send Artnet UDP by incoming MIDI events
 * open cmd
     * python should be the continuum one
 * then pip install 'python-rtmidi'
+
+* run 'python callback_multiprocessing.py'
 
 # Problems
 
